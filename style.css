@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    overflow: hidden;
+}
+.background{
+    background-image: url("Image/bg.png");
+    height: 100vh;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;    
+}
+.container{
+    padding-top: 1%;
+    overflow: hidden;
+}
+.panel{ 
+    font-size: 1.4rem;
+     background-color: rgba(208, 206, 195, 0.275);
+     text-align: center;
+     font-family: 'Raleway', sans-serif;
+     width: 50vh; 
+     height: 50vh;
+     border-radius: 25px;
+} 
+.panel h1{
+    padding-top: 50px;
+    border-bottom: 1px solid rgb(23, 23, 23);
+    width:90%;
+    margin-left: 5%;
+}
+.textfeild{
+    border: none;
+    background-color:rgba(55, 60, 74, 0.486) ;
+    height:5vh;
+    width: 65%;
+    margin: 10px;
+    outline: none;
+    padding-left: 10%;
+    color:#f8f9fb90;
+    font-size: 1.2rem;
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position: 2%;
+}
+::-webkit-input-placeholder { /* Edge */
+    color:#f8f9fb90;
+    /* padding-left: 10%; */
+    font-size: 1.2rem;
+    
+}
+  
+::-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:#f8f9fb90;
+    /* padding-left: 10%; */
+    font-size: 1.2rem;
+  }
+  
+::placeholder {
+    color:#f8f9fb90;
+    /* padding-left: 10%; */
+    font-size: 1.2rem;
+  }
+#usertf{
+    margin-top: 10%;
+    background-image: url("Image/user.png");  
+}
+#passtf{
+    background-image: url("Image/pass.png");  
+}
+label{
+    color: white;
+    font-size:.8rem;
+}
+.containlft{
+    padding-top: 2%;
+   float: left;
+   width: 80%;
+   
+}
+.forgotpass{
+    float: right;
+    color: white;
+    font-size:.8rem;
+    padding-top: 5px;
+    font-size: 1rem;
+   
+}
+.login{
+    color: #fff;
+    width: 40%;
+    background-color: #0008196c;
+    border: none;
+    height: 4.5ch;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 5%;
+    font-size: 1.2rem;
+    margin-left: -20px;
+}
+label{
+    font-size: 1rem; 
+}
+.button-box{
+    border-radius: 30px;
+    height: 10%;
+    width: 90%;
+    margin: auto;
+    margin-top: -60px;
+    align-items: center;
+    background-color: #0008196c;
+}
+.toggle-button{
+    position: absolute;
+    top:-40px;
+    padding: 2%;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative; 
+    color:white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.btn{
+    position: relative;
+    left: 4%;
+    width:100px;
+    height: 100%;
+    background-color: #fff ;
+    border-radius: 30px;
+    transition: .5s; 
+}
+.active1{
+    left: 25%;
+    transition: .5s;
+    width:22% ;
+}
+.active2{
+    left: 47%;
+    transition: .5s;
+} 
+.active3{
+    left: 71%;
+    transition: .5s;
+}
+.active{
+    color:black !important;
+}
+.slider{    
+    display: flex;
+    width: max-content;
+    transition: .5s; 
+    margin-left:-30px;
+}
+.activeteacher{
+    margin-left: -500px;
+}
+.activeacc{
+    margin-left: -1000px;
+}
+.activeprinciple{
+    margin-left: -1500px;
+}
+.panel1{
+    width:500px;
+}
+.panel2{
+    width:500px;
+}
+.panel3{
+    width:500px;
+}
+.panel4{
+    width:500px;
+}
+@media (min-height:935px ){
+   .toggle-button{
+    padding-inline: 5%;
+   }
+   .btn{
+    width: 20%;
+   }
+   .active1{
+    width: 21%;
+    }
+   .active2{
+    width: 27%;
+    }
+   .active3{
+    width: 25%;
+    left:75%
+    }
+}

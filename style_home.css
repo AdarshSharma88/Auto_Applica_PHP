@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.main {
+    width: 100%;
+}
+
+.main input {
+    margin: 20px 20px;
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: none;
+    font-size: large;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(102, 10, 117);
+    display: flex;
+}
+
+.notification {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.notification h1 {
+    transition: ease-in-out 0.2s;
+    color: white;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    text-transform: capitalize;
+}
+
+.notification h1:hover {
+    color: orange;
+}
+
+.navbar {
+    background-color: rgb(186, 52, 186);
+    height: 100vh;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilepic {
+    display: flex;
+    justify-content: center;
+}
+
+.profilepic img {
+    margin: 20px 0;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* border-radius: 30px; */
+    width: 100%;
+}
+
+.contents h2 {
+    padding: 25px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: large;
+    color: white;
+    width: 100%;
+    text-align: center;
+    transition: all ease-in-out 0.2s;
+    border-radius: 30px 0 0 30px;
+}
+
+.contents h2:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+.logout {
+    margin-top: auto;
+    margin-bottom: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.logout h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: large;
+    transition: all ease-in-out 0.2s;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.logout h2:hover {
+    background-color: rgb(112, 112, 112);
+    cursor: pointer;
+}
+
+.activepage {
+    background-color: white;
+    border-radius: 20px 0 0 20px;
+    color: black !important;
+}
+
+.applicationcontent {
+    display: flex;
+    height: 90%;
+    align-items: center;
+}
+
+.applicationcontent img {
+    transition: all ease-in-out 0.3s;
+}
+
+.applicationcontent a {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.leaveapplica,
+.sickleave,
+.tcapplication,
+.medileave {
+    /* border: 1px solid black; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.applicationcontent img:hover {
+    width: 95%;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.fa-solid {
+    margin-left: 20px;
+    font-size: xx-large;
+}
+
+.support-Page h1,
+h2 {
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+.Name-user{
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 40px;
+    margin: 30px;
+    color: purple;
+}
+.User_id{
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin: 30px;
+    word-spacing: 5px;
+}
+.user_email{
+    margin: 30px;
+    word-spacing: 5px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+.user_phone{
+    margin: 30px;
+    word-spacing: 5px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.support-Page h1 {
+    font-size: 40px;
+    margin: 30px;
+    color: purple;
+}
+
+.support-Page h2 {
+    margin: 30px;
+    word-spacing: 5px;
+}
+
+.reachUs {
+    font-size: 29px;
+}

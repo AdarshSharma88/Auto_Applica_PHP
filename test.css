@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    height: 100vh;
+
+}
+#display_image{
+    width: 100px;
+    /* margin-left: 10px; */
+    /* width: 375px; */
+    height: 100px;
+    /* border: 2px solid black; */
+    background-position: center ;
+    /* background-size: cover; */
+}
+#display_image img{
+    width: fit-content;
+    background-size: contain;
+    
+}

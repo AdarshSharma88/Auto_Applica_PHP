@@ -1,0 +1,5 @@
+.format pre {
+    word-wrap: normal;
+    overflow: hidden;
+    overflow-x: hidden;
+}
